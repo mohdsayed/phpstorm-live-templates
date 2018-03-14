@@ -1,0 +1,92 @@
+<templateSet group="WPCS">
+  <template name="//wpcs: XSS ok." value="// WPCS: XSS ok." description="Escaping / XSS, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: sanitization ok." value="// WPCS: sanitization ok." description="Sanitization, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: CSRF ok." value="// WPCS: CSRF ok." description="Nonce verification / CSRF, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: loose comparison ok." value="// WPCS: loose comparison ok." description="Loose comparison, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: override ok." value="// WPCS: override ok." description="Overriding WordPress globals, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: input var okay." value="// WPCS: input var okay." description="Use of superglobal, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: db call ok." value="// WPCS: db call ok." description="Direct database query, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: cache ok." value="// WPCS: cache ok." description="Database query without caching, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: slow query ok." value="// WPCS: slow query ok." description="Slow (taxonomy) queries, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: prefix ok." value="// WPCS: prefix ok." description="Non-prefixed function/class/variable/constant in the global namespace, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: spelling ok." value="// WPCS: spelling ok." description="WordPress spelling, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: precision alignment ok." value="// WPCS: precision alignment ok." description="Precision alignment, Whitelisting code which flags errors for WordPress Codesniffer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//wpcs: PreparedSQLPlaceholders replacement count ok." value="// WPCS: PreparedSQLPlaceholders replacement count ok." description="PreparedSQL placeholders vs replacements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//@codingStandardsIgnoreFile" value="// @codingStandardsIgnoreFile - $END$" description="Ignores file for coding standard" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//@codingStandardsIgnoreStart" value="// @codingStandardsIgnoreStart - $END$" description="Coding Standards Ignore Start" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//@codingStandardsIgnoreEnd" value="// @codingStandardsIgnoreEnd" description="Coding Standards Ignore End" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//@codingStandardsIgnoreLine" value="// @codingStandardsIgnoreLine - $END$" description="Coding Standards Ignore Line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="//phpcs" value="// phpcs:disable $END$" description="Ignore specific sniff" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+</templateSet>
